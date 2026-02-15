@@ -60,6 +60,15 @@ abbreviations:
 
 # Chapter 1: The Death of Traditional Marketing
 
+:::{figure} ../images/ch01-vibe-marketing-infographic.png
+:label: fig-ch01-vibe-marketing-infographic
+:alt: A comprehensive explainer infographic summarizing the AI Agent Revolution in Sales and Marketing.
+:width: 100%
+:align: center
+
+**The AI Agent Revolution.** This infographic summarizes the paradigm shift from traditional mass marketing to autonomous, agent-driven customer engagement.
+:::
+
 The $250 billion marketing industry is undergoing its most profound transformation since the invention of the printing press. For over a century, marketing operated on a fundamentally simple premise: craft a message, broadcast it to the masses, and hope enough people pay attention to buy your product. This "spray and pray" model powered the golden age of advertising — from the first newspaper ads of the 1800s through the Mad Men era of television, and into the early days of digital banner ads. It made fortunes, built empires, and defined consumer culture.
 
 But that model is dying. Not slowly, not gracefully — but in the dramatic, accelerating collapse of an industry that refused to evolve until evolution was no longer optional.
