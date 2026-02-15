@@ -1,0 +1,35 @@
+# MyST project configuration
+# Docs: https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"
+  authors:
+    - name: Dr. Ernesto Lee
+  # Book-level attributes
+  keywords: []
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/liquid-books/vibe-marketing
+  # Numbering
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    figure: true
+    table: true
+    equation: true
+  # Table of contents — chapters added here as they are written
+  toc:
+    - file: index.md
+    - title: "Part I: The Marketing Revolution"
+      children:
+        - file: chapters/ch01-death-of-traditional-marketing.md
+        - file: chapters/ch02-understanding-vibe-marketing.md
+
+site:
+  title: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"
+  options:
+    logo_text: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"
+    logo_url: "/"
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
