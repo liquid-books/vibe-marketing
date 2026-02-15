@@ -300,4 +300,9 @@ This book is a work in progress. New chapters will be added over time.
 From Mad Men to machine learning — why the $250 billion marketing industry's old playbook no longer works, and what's replacing it.
 :::
 
+:::{grid-item-card} Chapter 2: Understanding Vibe Marketing
+:link: ./chapters/ch02-understanding-vibe-marketing.md
+The anatomy of agent-first connection: defining the pillars of intelligence, scale, personalization, and speed in the AI era.
+:::
+
 ::::
