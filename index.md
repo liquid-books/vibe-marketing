@@ -5,6 +5,11 @@ description: |
 ---
 
 # Vibe Marketing: The AI Agent Revolution in Sales & Marketing
+:::{figure} ./images/cover.png
+:width: 300px
+:align: center
+:::
+
 
 Welcome to **Vibe Marketing: The AI Agent Revolution in Sales & Marketing**.
 
