@@ -21,7 +21,7 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
-    - title: "Part I: The Marketing Revolution"
+    - title: "Part I: The Vibe Marketing Revolution"
       children:
         - file: chapters/ch01-death-of-traditional-marketing.md
           title: "Chapter 1: The Death of Traditional Marketing"
@@ -29,6 +29,8 @@ project:
           title: "Chapter 2: Understanding Vibe Marketing"
         - file: chapters/ch03-the-vibe-marketing-framework.md
           title: "Chapter 3: The Vibe Marketing Framework"
+    - title: "Part II: Foundations - Building Your Agent Infrastructure"
+      children:
         - file: chapters/ch04-claude-code-agent-sdk-mastery.md
           title: "Chapter 4: Claude Code & Agent SDK Mastery"
 
