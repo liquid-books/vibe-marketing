@@ -310,4 +310,8 @@ The anatomy of agent-first connection: defining the pillars of intelligence, sca
 Building the agentic architecture for autonomous growth, from the data foundation to human strategic oversight.
 :::
 
+:::{grid-item-card} Chapter 4: Claude Code & Agent SDK Mastery
+:link: ./chapters/ch04-claude-code-agent-sdk-mastery.md
+Mastering the technical primitives of the agentic era: from installation and tool use to advanced orchestration patterns.
+:::
 ::::
