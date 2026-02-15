@@ -25,6 +25,7 @@ project:
       children:
         - file: chapters/ch01-death-of-traditional-marketing.md
         - file: chapters/ch02-understanding-vibe-marketing.md
+        - file: chapters/ch03-the-vibe-marketing-framework.md
 
 site:
   title: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"

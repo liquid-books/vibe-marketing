@@ -305,4 +305,9 @@ From Mad Men to machine learning — why the $250 billion marketing industry's o
 The anatomy of agent-first connection: defining the pillars of intelligence, scale, personalization, and speed in the AI era.
 :::
 
+:::{grid-item-card} Chapter 3: The Vibe Marketing Framework
+:link: ./chapters/ch03-the-vibe-marketing-framework.md
+Building the agentic architecture for autonomous growth, from the data foundation to human strategic oversight.
+:::
+
 ::::
