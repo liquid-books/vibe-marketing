@@ -46,7 +46,7 @@ abbreviations:
 
 # Chapter 4: Claude Code & Agent SDK Mastery
 
-:::{figure} ../images/ch04-infographic.png
+:::{figure} ../images/ch04-01-infographic.png
 :label: fig-ch04-infographic
 :alt: A conceptual map of the Claude Agent Ecosystem, showing the relationship between Claude Code, the Agent SDK, Tools, and the LLM.
 :width: 100%
@@ -57,7 +57,25 @@ abbreviations:
 
 In the previous chapters, we explored the theoretical foundations of vibe marketing and the high-level framework for building an agentic marketing organization. We discussed how traditional marketing is failing and why the shift toward autonomous agents is not just an optimization but a complete paradigm shift. Now, it is time to get our hands dirty.
 
+:::{figure} ../images/ch04-02-claude-code.png
+:label: fig-ch04-claude-code
+:alt: A terminal window showing the Claude Code CLI in action, with agent reasoning and file editing steps visible.
+:width: 90%
+:align: center
+
+**Claude Code in the Terminal.** Claude Code provides a direct, agentic interface to your codebase, allowing for autonomous research, editing, and execution within your local development environment.
+:::
+
 In this chapter, we transition from strategy to execution. We will dive deep into the technical tools that make vibe marketing possible: **Claude Code** and the **Claude Agent SDK**. These tools represent the state-of-the-art in agentic AI development, providing the primitives needed to build systems that don't just "chat" with users but actually *do work*—searching the web, editing files, executing code, and managing complex, multi-step marketing campaigns.
+
+:::{figure} ../images/ch04-03-agent-sdk.png
+:label: fig-ch04-agent-sdk
+:alt: Architectural diagram of the Anthropic Agent SDK showing its core layers.
+:width: 90%
+:align: center
+
+**Agent SDK Architecture.** The SDK provides the fundamental building blocks for agentic behavior, including tool orchestration, state management, and model interface layers.
+:::
 
 Whether you are a marketing technologist looking to automate lead generation, a developer building a custom brand-voice agent, or a CMO trying to understand the technical "magic" behind the curtain, this chapter is your definitive guide to mastering the Claude agent ecosystem.
 
@@ -321,6 +339,15 @@ The Claude Agent SDK supports two types of tools:
 
 To create a custom tool, you define its schema (so the agent knows how to use it) and its implementation (what it actually does).
 
+:::{figure} ../images/ch04-04-tool-creation.png
+:label: fig-ch04-tool-creation
+:alt: Flow diagram for creating an agent tool, from schema to implementation.
+:width: 80%
+:align: center
+
+**The Tool Creation Workflow.** Building a custom tool involves defining a clear input schema, implementing the logic, and formatting the output for the agent to consume.
+:::
+
 Example: A `HubSpotTool` for creating leads.
 
 ```typescript
@@ -526,6 +553,15 @@ Each of these integrations required manual maintenance, authentication handling,
 
 MCP inverts this model. Instead of the agent learning to speak to dozens of different APIs, it speaks one universal language (MCP). Service providers (or third-party developers) create **MCP Servers** that expose data and tools in a standardized format. The agent then connects to these servers through an **MCP Host** (like Claude Code or your custom SDK-based application).
 
+:::{figure} ../images/ch04-05-mcp-structure.png
+:label: fig-ch04-mcp-structure
+:alt: Technical diagram of the Model Context Protocol (MCP) server structure.
+:width: 90%
+:align: center
+
+**MCP Server Architecture.** MCP standardizes how agents interact with external data and tools, reducing the integration tax and enabling a plug-and-play ecosystem of capabilities.
+:::
+
 :::{mermaid}
 :label: fig-mcp-architecture
 
@@ -594,6 +630,15 @@ As your vibe marketing operations grow, you will move from single-agent scripts 
 ### 4.13.1 The Supervisor Pattern
 
 In the Supervisor Pattern, one high-level "Manager" agent oversees several specialized sub-agents. The Manager receives the user's goal, breaks it down, assigns tasks, and synthesizes the results.
+
+:::{figure} ../images/ch04-06-orchestration.png
+:label: fig-ch04-orchestration
+:alt: System diagram for Multi-Agent Orchestration showing a Lead Agent delegating to sub-agents.
+:width: 90%
+:align: center
+
+**Multi-Agent Orchestration.** Large, complex tasks are best handled by a team of specialized agents coordinated by a central supervisor.
+:::
 
 **Advantages:**
 - **Encapsulation**: Sub-agents only see the context relevant to their specific task.
