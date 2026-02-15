@@ -139,6 +139,18 @@ In the old paradigm, "intelligence" was provided by human marketing teams. In th
 
 A common mistake in AI implementation is relying on a single "God Model" (e.g., just using GPT-4 for everything). This is inefficient, expensive, and often produces "bland" results. The Vibe Marketing Framework advocates for a **Heterogeneous Model Strategy**.
 
+::::{tab-set}
+:::{tab-item} Strategic Models
+High-intelligence models like **Claude 3.5 Sonnet** or **GPT-4o**. These are used for task decomposition, complex copywriting, and high-level strategic planning. They possess the "Reasoning Depth" required to understand brand nuance.
+:::
+:::{tab-item} Operational Models
+Fast, cheap models like **Gemini 1.5 Flash** or **Llama 3 (8B/70B)**. These are used for real-time sentiment analysis, simple social media replies, and high-volume data categorization where speed is more important than deep creativity.
+:::
+:::{tab-item} Creative Models
+Specialized image, video, and audio models like **NanoBanana Pro** (for brand-consistent visuals), **Suno/Udio** (for audio branding), and **HeyGen/Runway** (for video generation). These provide the "Aesthetic Finish" to the agentic output.
+:::
+::::
+
 We use different models for different "tasks of the mind":
 
 *   **Reasoning Models (The Strategists)**: High-intelligence models like **Claude 3.5 Sonnet** or **GPT-4o**. These are used for task decomposition, complex copywriting, and high-level strategic planning.
@@ -387,6 +399,22 @@ The system detects a major weather pattern: a record-breaking heatwave is about 
 
 ### 3.8.3 The Execution Flow
 
+:::{mermaid}
+:label: fig-lumina-sleep-workflow
+graph TD
+    A[Signal: Heatwave in Seattle] --> B[Data Layer: Fetch Contacts & Cooling Strategy]
+    B --> C[Orchestration: Manager Agent Decomposes Tasks]
+    C --> D[Intelligence: Copywriter & Visual Agents Create Content]
+    D --> E[Orchestration: Vibe Guard Performs Brand-Check]
+    E -->|Pass| F[Action Layer: Deploy Email & Meta Ads]
+    E -->|Fail| D
+    F --> G[Real-Time Feedback Loop: Monitor Clicks]
+    G --> H[Optimization: Kill Losers, Scale Winners]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bfb,stroke:#333,stroke-width:2px
+:::
+
 #### Phase 1: Data Signal (Layer 1)
 The **Signal Monitor Agent** (connected to a weather API) detects the heatwave. It queries the **Data Layer** for all contacts in the Seattle area. It also retrieves the "Brand Soul" documents regarding "Cooling Technology."
 
@@ -526,6 +554,18 @@ The Vibe Marketing Framework is fractal—it can be applied to a solo founder or
 ### 3.11.1 The Startup Model: Speed and Agility as a Moat
 
 For a startup, the Vibe Marketing Framework is an **Equalizer**. It allows a 2-person team to execute with the volume and quality of a 50-person marketing department.
+
+::::{grid} 1 1 2 2
+:gutter: 3
+
+:::{grid-item-card} 🚀 The Speed Advantage
+Startups can deploy a new "vibe" in minutes, responding to competitors or cultural trends while bigger brands are still in meetings.
+:::
+
+:::{grid-item-card} 💰 Cost Efficiency
+By routing 90% of tasks to "Operational" models like Gemini Flash, startups can maintain a massive marketing presence on a shoestring budget.
+:::
+::::
 
 **Implementation Strategy:**
 *   **Focus on 'The Creator' Agents**: Use agents primarily for high-volume content generation across LinkedIn, Twitter, and Email.
