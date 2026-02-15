@@ -116,5 +116,10 @@ The structural blueprint of Vibe Marketing: exploring the five-layer architectur
 :link: ./chapters/ch04-claude-code-agent-sdk-mastery.md
 Mastering the technical primitives of the agentic era: from installation and tool use to advanced orchestration patterns.
 :::
+
+:::{grid-item-card} Chapter 5: The API Ecosystem
+:link: ./chapters/ch05-the-api-ecosystem.md
+A deep dive into the essential APIs that power vibe marketing, from data enrichment and web scraping to voice AI and CRM integration.
+:::
 ::::
  

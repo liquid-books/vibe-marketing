@@ -33,6 +33,8 @@ project:
       children:
         - file: chapters/ch04-claude-code-agent-sdk-mastery.md
           title: "Chapter 4: Claude Code & Agent SDK Mastery"
+        - file: chapters/ch05-the-api-ecosystem.md
+          title: "Chapter 5: The API Ecosystem"
 
 site:
   title: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"
