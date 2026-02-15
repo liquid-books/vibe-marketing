@@ -21,6 +21,9 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
+    - title: "Part I: The Marketing Revolution"
+      children:
+        - file: chapters/ch01-death-of-traditional-marketing.md
 
 site:
   title: "Vibe Marketing: The AI Agent Revolution in Sales & Marketing"

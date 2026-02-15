@@ -88,3 +88,15 @@ Welcome to **Vibe Marketing: The AI Agent Revolution in Sales & Marketing**.
 :::{note}
 This book is a work in progress. New chapters will be added over time.
 :::
+
+## Available Chapters
+
+::::{grid} 1 1 2 3
+:gutter: 3
+
+:::{grid-item-card} Chapter 1: The Death of Traditional Marketing
+:link: ./chapters/ch01-death-of-traditional-marketing.md
+From Mad Men to machine learning — why the $250 billion marketing industry's old playbook no longer works, and what's replacing it.
+:::
+
+::::
